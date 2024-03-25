@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<microbloggingSite>
+    <user id="1">
+        <username>user1</username>
+        <posts>
+            <post id="101">
+                <content>Hello, world!</content>
+                <likes>10</likes>
+                <comments>
+                    <comment id="1">
+                        <text>Great post!</text>
+                    </comment>
+                    <comment id="2">
+                        <text>Keep it up!</text>
+                    </comment>
+                </comments>
+            </post>
+        </posts>
+    </user>
+    <user id="2">
+        <username>user2</username>
+        <posts>
+            <post id="102">
+                <content>Excited about the new features!</content>
+                <likes>5</likes>
+                <comments>
+                    <comment id="3">
+                        <text>Can't wait to try them out!</text>
+                    </comment>
+                </comments>
+            </post>
+            <post id="103">
+                <content>Feeling inspired today.</content>
+                <likes>7</likes>
+                <comments>
+                    <comment id="4">
+                        <text>Share your inspiration!</text>
+                    </comment>
+                </comments>
+            </post>
+        </posts>
+    </user>
+</microbloggingSite>
