@@ -1,0 +1,12 @@
+XPath Expression 1: Select all usernames.
+
+XPath: /microbloggingSite/user/username/text()
+Result: user1, user2
+XPath Expression 2: Select the content of posts with more than 5 likes.
+
+XPath: /microbloggingSite/user/posts[likes > 5]/content/text()
+Result: Feeling inspired today.
+XPath Expression 3: Select the text of comments from post id 101.
+
+XPath: /microbloggingSite/user/posts[@id='101']/comments/comment/text/text()
+Result: Great post!, Keep it up!
